@@ -1878,7 +1878,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.84276724, g: 0.43901706, b: 0.23056829, a: 1}
+  m_Color: {r: 0.23137254, g: 0.84313726, b: 0.37108195, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2071,6 +2071,18 @@ PrefabInstance:
     - target: {fileID: 4442715519430057141, guid: 6b29941f5c570934688f2ac491fbf210, type: 3}
       propertyPath: m_Name
       value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813747752021088063, guid: 6b29941f5c570934688f2ac491fbf210, type: 3}
+      propertyPath: m_Color.b
+      value: 0.37108195
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813747752021088063, guid: 6b29941f5c570934688f2ac491fbf210, type: 3}
+      propertyPath: m_Color.g
+      value: 0.84313726
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813747752021088063, guid: 6b29941f5c570934688f2ac491fbf210, type: 3}
+      propertyPath: m_Color.r
+      value: 0.23137254
       objectReference: {fileID: 0}
     - target: {fileID: 7311338200087480671, guid: 6b29941f5c570934688f2ac491fbf210, type: 3}
       propertyPath: m_LocalPosition.x
